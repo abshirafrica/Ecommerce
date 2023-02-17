@@ -17,7 +17,8 @@ const Header = () => {
     <div className='flex items-center justify-between'>
       {/* left */}
         <div>
-            <img src={logo} alt="Logo" />
+            
+            <Link to="/"><img src={logo} alt="Logo" /></Link>
         </div>
         <div className='cursor-pointer md:hidden' onClick={() => setOpen(!open)}>
           <RiMenu3Fill className='w-6'/>
